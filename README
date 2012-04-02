@@ -1,0 +1,3 @@
+Have the main rule in your parsers (the one you will be using) be called 'mainrule'.
+Move your ANTLR parser and lexer to /src/parsers/ and call them specParser and specLexer, respectively.
+Build project, to draw the graph: run using java -jar and make sure you specify input file with -i and output file with -o.
